@@ -5,6 +5,7 @@ The core of the project is a clone of the repository: [node-identicon](https://g
 ## Install
 
 ```bash
+npm install -g typescript
 npm install react-native-identicon
 npx pod-install ios
 ```
