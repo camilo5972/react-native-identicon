@@ -1,14 +1,11 @@
 {
   "name": "react-native-identicon",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React Native Component for Identicon implementation",
-  "main": "lib/index.js",
+  "main": "index.js",
   "types": "lib/index.d.ts",
-  "files": [
-    "lib/**/*"
-  ],
   "scripts": {
-    "build": "tsc -p src",
+    "build": "tsc",
     "postinstall": "npm run build",
     "pub": "npm version patch && publish"
   },

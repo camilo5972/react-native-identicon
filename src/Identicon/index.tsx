@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { View } from 'react-native';
 import Canvas from 'react-native-canvas';
-import { IndenticonLib } from './identicon';
+import { IndenticonLib } from '../identicon';
 
 interface Props {
     value: string;
