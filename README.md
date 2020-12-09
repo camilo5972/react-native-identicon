@@ -6,6 +6,7 @@ The core of the project is a clone of the repository: [node-identicon](https://g
 
 ```bash
 npm install -g typescript
+npm install react-native-webview
 npm install react-native-identicon
 npx pod-install ios
 ```
