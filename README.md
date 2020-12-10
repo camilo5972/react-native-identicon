@@ -10,6 +10,10 @@ npm install -g typescript
 # Peer dependencies
 npm install react-native-webview
 npm install @types/node
+npm install react-native-randombytes
+npm install tradle/rn-nodeify --save-dev
+# Hack some node modules. I recommend that you then put this inside the "postinstall" of the package.json
+./node_modules/.bin/rn-nodeify --install 'stream,crypto,events,process' --hack
 # Install component
 npm install react-native-identicon
 npx pod-install ios
