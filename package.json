@@ -1,6 +1,6 @@
 {
   "name": "react-native-identicon",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "React Native Component for Identicon implementation",
   "main": "lib/Identicon/index.js",
   "types": "lib/Identicon/index.d.ts",
